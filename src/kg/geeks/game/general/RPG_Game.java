@@ -20,7 +20,8 @@ public class RPG_Game {
         Hacker hacker = new Hacker(200, 8, "Ainazik");
         King king = new King(150, 0,  "King");
         Kamikaze kamikaze = new Kamikaze(380, 0, "Ace");
-        Hero[] heroes = {warrior1, warrior2, doc, magic, berserk, assistant, witcher, hacker, king, kamikaze};
+        Ludomaniac ludomaniac = new Ludomaniac(2000, 7, "Aidan");
+        Hero[] heroes = {berserk, warrior1, warrior2, doc, magic, assistant, witcher, hacker, king, kamikaze, ludomaniac};
 
         showStatistics(boss, heroes);
         while (!isGameOver(boss, heroes)) {

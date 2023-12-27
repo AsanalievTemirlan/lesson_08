@@ -8,5 +8,6 @@ public enum SuperAbility {
     RESURRECTION,
     CHEATING,
     SAITAMA,
-    SUICIDAL
+    SUICIDAL,
+    LUDOMANIA
 }
